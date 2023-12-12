@@ -5,12 +5,11 @@ sudo pacman -S sudo neovim ly git xmonad xmonad-contrib xmobar pcmanfm pacman-co
 
 
 
-#################### AUR #########################
+# AUR
 git clone https://aur.archlinux.org/aura-bin.git
 cd aura-bin
 makepkg
 sudo pacman -U *.zst
-##################################################
 
-# Aur packages
+# AUR packages
 sudo aura -A ark-icon-theme nvim-packer-git mutt-wizard-git pam-gnupg brillo ttf-comic-mono-git
