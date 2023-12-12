@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Arch-repo packages
-sudo pacman -S sudo neovim xorg ly git base-devel xmonad xmonad-contrib xmobar pcmanfm pacman-contrib fish alacritty picom mpv yt-dlp gvfs lsd bat xcursor-themes vifm scrot xclip cronie libnotify notification-daemon udisks2 gparted ttf-inconsolata ttf-hack ttf-monofur terminus-font ttf-ubuntu-mono-nerd ttf-cascadia-code ttf-fira-code
+sudo pacman -S sudo neovim xorg ly git base-devel xmonad xmonad-contrib xmobar pcmanfm pacman-contrib dmenu fish alacritty picom mpv yt-dlp gvfs lsd bat xcursor-themes vifm scrot xclip cronie libnotify notification-daemon udisks2 gparted ttf-inconsolata ttf-hack ttf-monofur terminus-font ttf-ubuntu-mono-nerd ttf-cascadia-code ttf-fira-code
 
 # AUR
 git clone https://aur.archlinux.org/aura-bin.git
