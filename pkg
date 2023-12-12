@@ -10,4 +10,4 @@ makepkg
 sudo pacman -U *.zst
 
 # AUR packages
-sudo aura -A nvim-packer-git mutt-wizard-git pam-gnupg brillo ttf-comic-mono-git brave-bin
+sudo aura -A nvim-packer-git mutt-wizard-git pam-gnupg brillo ttf-comic-mono-git brave-bin pfetch
