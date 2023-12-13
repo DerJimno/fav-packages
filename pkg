@@ -6,7 +6,7 @@ xmobar pcmanfm pacman-contrib nitrogen dmenu fish alacritty picom mpv \
 yt-dlp gvfs htop lsd bat xcursor-themes vifm scrot xclip cronie libnotify \
 notification-daemon udisks2 gparted ttf-inconsolata ttf-hack ttf-monofur \
 terminus-font ttf-ubuntu-mono-nerd ttf-cascadia-code ttf-fira-code \
-alsa-utils 
+alsa-utils xsettingsd
 
 # AUR
 git clone https://aur.archlinux.org/aura-bin.git
