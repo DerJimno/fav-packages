@@ -5,7 +5,7 @@ sudo pacman -S sudo neovim xorg ly git base-devel xmonad xmonad-contrib \
 xmobar pcmanfm pacman-contrib nitrogen dmenu fish alacritty picom mpv \
 yt-dlp gvfs htop lsd bat xcursor-themes vifm scrot xclip cronie libnotify \
 notification-daemon udisks2 gparted ttf-inconsolata ttf-hack ttf-monofur \
-terminus-font ttf-ubuntu-mono-nerd ttf-cascadia-code ttf-fira-code \
+terminus-font ttf-ubuntu-font-family ttf-cascadia-code ttf-fira-code \
 alsa-utils xsettingsd
 
 # AUR
