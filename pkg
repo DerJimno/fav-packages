@@ -16,4 +16,4 @@ sudo pacman -U *.zst
 
 # AUR packages
 sudo aura -A nvim-packer-git mutt-wizard-git brillo brave-bin pfetch \
-ttf-comic-mono-git
+ttf-comic-mono-git pcloud-drive
