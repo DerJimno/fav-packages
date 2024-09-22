@@ -16,5 +16,5 @@ makepkg
 sudo pacman -U *.zst
 
 # AUR packages
-sudo aura -A mutt-wizard-git brillo brave-bin pfetch \
+aura -A mutt-wizard-git brillo brave-bin pfetch \
 ttf-comic-mono-git pcloud-drive standardnotes-bin
