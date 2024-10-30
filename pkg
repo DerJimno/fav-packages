@@ -7,7 +7,7 @@ yt-dlp gvfs htop lsd bat xcursor-themes vifm scrot xclip libnotify \
 notification-daemon udisks2 gparted ttf-inconsolata ttf-hack ttf-monofur \
 terminus-font ttf-ubuntu-font-family ttf-cascadia-code ttf-fira-code \
 ttf-ubuntu-mono-nerd alsa-utils xsettingsd pipewire pipewire-alsa \
-pipewire-pulse wireplumber bluez bluez-utils
+pipewire-pulse wireplumber bluez bluez-utils xf86-input-synaptics
 
 # AUR
 git clone https://aur.archlinux.org/aura-bin.git
@@ -17,4 +17,5 @@ sudo pacman -U *.zst
 
 # AUR packages
 aura -A mutt-wizard-git brillo brave-bin pfetch \
-ttf-comic-mono-git pcloud-drive standardnotes-bin
+ttf-comic-mono-git pcloud-drive standardnotes-bin \
+jmtpfs 
