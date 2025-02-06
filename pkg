@@ -10,7 +10,7 @@ ttf-ubuntu-mono-nerd alsa-utils xsettingsd pipewire pipewire-alsa \
 pipewire-pulse wireplumber bluez bluez-utils xf86-input-synaptics \
 ttf-liberation ttf-dejavu unzip
 
-# AUR
+# AUR install
 git clone https://aur.archlinux.org/aura-bin.git
 cd aura-bin
 makepkg
