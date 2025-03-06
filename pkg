@@ -18,4 +18,5 @@ sudo pacman -U *.zst
 
 # AUR packages
 aura -A mutt-wizard-git brave-bin pfetch ttf-comic-mono-git \
-pcloud-drive jmtpfs kanata-bin ttf-times-new-roman
+pcloud-drive jmtpfs ttf-noto-emoji-monochrome kanata-bin \
+ttf-times-new-roman
