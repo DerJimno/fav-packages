@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Arch-repo packages
-sudo pacman -S sudo neovim xorg ly git base-devel xmonad xmonad-contrib \
+sudo pacman -S neovim xorg ly git base-devel xmonad xmonad-contrib \
 xmobar pcmanfm pacman-contrib nitrogen dmenu fish alacritty picom mpv \
 yt-dlp gvfs htop lsd bat xcursor-themes vifm scrot xclip libnotify \
 notification-daemon udisks2 gparted ttf-inconsolata ttf-hack ttf-monofur \
