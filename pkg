@@ -21,3 +21,6 @@ sudo pacman -U *.zst
 aura -A mutt-wizard-git brave-bin pfetch ttf-comic-mono-git \
 pcloud-drive jmtpfs ttf-noto-emoji-monochrome kanata-bin \
 ttf-times-new-roman
+
+# Fnm install
+curl -fsSL https://fnm.vercel.app/install | bash
