@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Arch-repo packages
-sudo pacman -S xorg ly base-devel xmonad xmonad-contrib xmobar \
+sudo pacman -S --noconfirm xorg ly base-devel xmonad xmonad-contrib xmobar \
 pcmanfm pacman-contrib nitrogen dmenu fish alacritty picom mpv \
 yt-dlp gvfs htop lsd bat xcursor-themes vifm scrot xclip libnotify \
 notification-daemon udisks2 gparted ttf-inconsolata ttf-hack ttf-monofur \
@@ -14,13 +14,13 @@ luarocks shellcheck dunst playerctl mpv-mpris
 # AUR install
 git clone https://aur.archlinux.org/aura-bin.git
 cd aura-bin
-makepkg
-sudo pacman -U *.zst
+makepkg -si --noconfirm
+cd ..
 
 # AUR packages
-aura -A mutt-wizard-git brave-bin pfetch ttf-comic-mono-git \
+aura -A --noconfirm mutt-wizard-git brave-bin pfetch ttf-comic-mono-git \
 pcloud-drive jmtpfs ttf-noto-emoji-monochrome kanata-bin \
 ttf-times-new-roman
 
 # Fnm install
-curl -fsSL https://fnm.vercel.app/install | bash
+curl -fsSL https://fnm.vercel.app/install | bash -s -- --skip-shell
