@@ -9,7 +9,7 @@ terminus-font ttf-ubuntu-font-family ttf-cascadia-code ttf-fira-code \
 ttf-ubuntu-mono-nerd alsa-utils xsettingsd pipewire pipewire-alsa \
 pipewire-pulse pipewire-jack wireplumber bluez bluez-utils xf86-input-synaptics \
 ttf-liberation ttf-dejavu unzip xorg-xmessage libreoffice-fresh \
-luarocks shellcheck dunst playerctl mpv-mpris
+luarocks shellcheck dunst playerctl mpv-mpris fzf
 
 # AUR install
 git clone https://aur.archlinux.org/aura-bin.git
