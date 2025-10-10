@@ -20,7 +20,7 @@ cd ..
 # AUR packages
 aura -A --noconfirm mutt-wizard-git brave-bin pfetch ttf-comic-mono-git \
 pcloud-drive jmtpfs ttf-noto-emoji-monochrome kanata-bin einfach-icon-theme \
-ttf-times-new-roman
+einfach-grub-theme ttf-times-new-roman
 
 # Fnm install
 curl -fsSL https://fnm.vercel.app/install | bash -s -- --skip-shell
