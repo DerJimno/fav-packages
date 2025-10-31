@@ -2,7 +2,7 @@
 
 # Arch-repo packages
 sudo pacman -Syu --noconfirm xorg ly base-devel xmonad xmonad-contrib xmobar \
-pcmanfm pacman-contrib nitrogen dmenu fish alacritty picom mpv os-prober \
+pcmanfm pacman-contrib dmenu fish alacritty picom mpv os-prober \
 yt-dlp gvfs htop lsd bat xcursor-themes vifm scrot xclip libnotify neovim \
 notification-daemon udisks2 gparted ttf-inconsolata ttf-hack ttf-monofur \
 terminus-font ttf-ubuntu-font-family ttf-cascadia-code ttf-fira-code git \
@@ -20,7 +20,7 @@ cd ..
 # AUR packages
 aura -A --noconfirm mutt-wizard-git brave-bin pfetch ttf-comic-mono-git \
 pcloud-drive jmtpfs ttf-noto-emoji-monochrome kanata-bin einfach-icon-theme \
-einfach-grub-theme ttf-times-new-roman
+einfach-grub-theme ttf-times-new-roman nitrogen
 
 # Fnm install
 curl -fsSL https://fnm.vercel.app/install | bash -s -- --skip-shell
